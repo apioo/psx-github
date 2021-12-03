@@ -1,0 +1,27 @@
+{
+  "name": "psx/github",
+  "description": "Package which helps to build services using Github sponsoring",
+  "keywords": ["github", "sponsoring"],
+  "homepage": "https://phpsx.org",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Christoph Kappestein",
+      "email": "christoph.kappestein@gmail.com",
+      "homepage": "https://chrisk.app"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "psx/framework": "^5.1",
+    "firebase/php-jwt": "^5.5"
+  },
+  "require-dev": {
+    "vimeo/psalm": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PSX\\Github\\": "src/"
+    }
+  }
+}
