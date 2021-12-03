@@ -3,7 +3,7 @@
   "description": "Package which helps to build services using Github sponsoring",
   "keywords": ["github", "sponsoring"],
   "homepage": "https://phpsx.org",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "authors": [
     {
       "name": "Christoph Kappestein",
